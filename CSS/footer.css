@@ -1,0 +1,56 @@
+.foot_title {
+  text-align: center;
+  font-size: 35pt;
+  margin: 2em 0 1em 0;
+  color: white;
+}
+
+form .get_in_touch.half {
+  display: inline-block;
+  width: 48%;
+}
+
+form .get_in_touch.first {
+  margin-right: 2.5em;
+}
+
+form .get_in_touch > input,
+textarea {
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px 0 10px 15px;
+  background-color: #f5f6fa;
+}
+
+form .get_in_touch > input::placeholder,
+textarea::placeholder {
+  font-family: "Gamja Flower", cursive;
+  font-size: 20px;
+}
+
+form .get_in_touch > label {
+  display: block;
+  color: white;
+  font-size: 25px;
+  margin: 20px 0;
+}
+
+.foot_button {
+  margin: 40px 0 90px 0;
+  text-align: center;
+}
+
+.foot_button > input {
+  padding: 20px 15px;
+  border: none;
+  font-size: 22px;
+  border-radius: 5px;
+  color: white;
+  background-color: #718093;
+  font-family: "Gamja Flower", cursive;
+}
+
+.foot_button > input:hover {
+  cursor: pointer;
+  background-color: black;
+}
