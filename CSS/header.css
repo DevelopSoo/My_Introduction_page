@@ -4,6 +4,7 @@
 }
 
 .profile_bg {
+  position: relative;
   display: inline-block;
   border-radius: 100%;
   padding: 0.5em;
@@ -19,6 +20,39 @@
 .profile_img {
   border-radius: 100%;
   width: 13em;
+}
+
+.game_click {
+  position: absolute;
+  left: 80px;
+  top: 25px;
+  font-size: 20px;
+}
+.game_icon {
+  cursor: pointer;
+  position: absolute;
+  left: 90px;
+  top: 40px;
+  font-size: 40px;
+}
+
+.ask_box {
+  display: none;
+}
+.ask_game {
+  font-size: 25px;
+}
+
+.game_icon:hover + .ask_box {
+  left: 140px;
+  top: -5px;
+  position: absolute;
+  display: inline-block;
+  background-color: aquamarine;
+  width: 120px;
+  height: 55px;
+  border-radius: 15px;
+  border-bottom-left-radius: 0px;
 }
 
 .profile_img:hover {
